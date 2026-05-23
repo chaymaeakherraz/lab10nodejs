@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# Todo App Avancée - React Hooks & React Router
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Description
+Application React moderne réalisée dans le cadre d’un TP pour apprendre et pratiquer les Hooks React fondamentaux et avancés ainsi que le routage avec React Router.
 
-## Available Scripts
+L’application contient plusieurs démonstrations pratiques :
+- Gestion d’état avec useState
+- Effets secondaires avec useEffect
+- Partage de données avec useContext
+- Gestion d’état complexe avec useReducer
+- Optimisation avec useMemo et useCallback
+- Manipulation du DOM avec useRef
+- Mesure DOM avec useLayoutEffect
+- API impérative avec useImperativeHandle
+- Hooks personnalisés
+- Navigation avec React Router
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Technologies utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- React Router DOM
+- JavaScript ES6+
+- HTML5
+- CSS3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📂 Structure du projet
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```txt
+src/
+├── components/
+├── contexts/
+├── hooks/
+├── pages/
+├── reducers/
+├── App.js
+├── App.css
+└── index.js
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Installation et exécution
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1️⃣ Cloner le projet
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/VOTRE_USERNAME/todo-app-avancee.git
+```
 
-### `npm run eject`
+### 2️⃣ Accéder au dossier
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd todo-app-avancee
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3️⃣ Installer les dépendances
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4️⃣ Lancer le projet
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌐 Accès à l’application
 
-### Code Splitting
+```txt
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📚 Fonctionnalités principales
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+✅ Gestion des tâches avec useReducer  
+✅ Changement de thème clair/sombre avec useContext  
+✅ Horloge dynamique avec useEffect  
+✅ Chronomètre avec useRef  
+✅ Optimisation des performances avec useMemo et useCallback  
+✅ Hooks personnalisés (useLocalStorage, useMediaQuery, useOnlineStatus)  
+✅ Navigation multi-pages avec React Router  
+✅ Recherche optimisée avec useTransition et useDeferredValue  
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🧠 Hooks React utilisés
 
-### Advanced Configuration
+| Hook | Utilisation |
+|---|---|
+| useState | Gestion d’état local |
+| useEffect | Gestion des effets secondaires |
+| useContext | Partage de données globales |
+| useReducer | Gestion d’état complexe |
+| useMemo | Optimisation des calculs |
+| useCallback | Optimisation des fonctions |
+| useRef | Références persistantes |
+| useLayoutEffect | Mesure DOM |
+| useImperativeHandle | API impérative |
+| useDebugValue | Débogage |
+| useTransition | Transitions fluides |
+| useDeferredValue | Mise à jour différée |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🎯 Objectifs pédagogiques
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Comprendre l’architecture React moderne
+- Maîtriser les Hooks React
+- Optimiser les performances
+- Créer des hooks personnalisés
+- Utiliser React Router
+- Structurer une application React complète
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+https://github.com/user-attachments/assets/b223e8d2-e1e7-4d84-930f-ce6df86c1eb8
+
+
